@@ -68,8 +68,6 @@ def main():
 		for unit in units:
 			if time > 1000:
 				unit.update(game)
-
-				print("tick")
 			unit.draw(screen)
 		time %= 1000
 		game.draw(screen)
